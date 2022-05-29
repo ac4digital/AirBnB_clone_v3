@@ -17,6 +17,7 @@ def teardowm_appcontext(param):
     """teardown_appcontext"""
     storage.close()
 
+
 @app.page_not_found(404)
 def page_not_found(error):
     """error response 404"""
