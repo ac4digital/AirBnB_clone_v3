@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """init file for views in REST API
 """
+
 from flask import Blueprint
 
 
