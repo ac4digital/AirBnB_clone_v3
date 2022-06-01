@@ -59,4 +59,3 @@ def city_with_id(city_id):
         to_ignore = ['id', 'created_at', 'updated_at', 'state_id']
         city.update(to_ignore, **put_data)
         return jsonify(city.to_dict()), 200
->>>>>>> 1cb411d7137f2d4e5b1a6336f5571b6de34285ed
